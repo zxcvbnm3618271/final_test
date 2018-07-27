@@ -1,0 +1,97 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 1900px;
+    margin: 0;
+    padding: 0;
+}
+div.header{
+    position: relative;
+    background-color:#ffffff;
+    width: 100%;
+    height: 190px;
+    border-bottom: 1px solid #f15c18;
+}
+div.header .top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color:#f6f6f6;
+
+}
+div.header .top .mes{
+    /*border: 1px solid #000;*/
+    width: 540px;
+    position: absolute;
+    top: 0;
+    right: 360px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+ div.header .top .mes >div{
+     flex: 1;
+     /*border: 1px solid #000;*/
+
+ }
+ div.header .top .mes >div a{
+     text-decoration: none;
+     font-family: "宋体";
+     font-size: 12px;
+     text-align: center;
+     line-height: 40px;
+     display: inline-block;
+     margin: 0 5px;
+     color: #777777;
+ }
+ div.header .top .mes >div ul{
+     list-style: none;
+     overflow: hidden;
+     height: 40px;
+
+transition: all 0.5s;
+ }
+ div.header .top .mes >div ul.h4:hover{
+     height: 160px;
+     background-color: white;
+     border: 1px solid #000;
+ }
+ div.header .top .mes >div ul.h3:hover{
+     height: 120px;
+     background-color: white;
+     border: 1px solid #000;
+ }
+ div.header .top .mes >div ul:hover span.arrow{
+     background: url("../images/top_bg.png") -30px 0 no-repeat;
+ }
+ div.header .top .mes >div ul:hover li:hover{
+     background-color:#f6f6f6 ;
+ }
+ div.header .top .mes >div ul li{
+     font-size: 12px;
+
+  }
+ span.arrow{
+     background: url("../images/top_bg.png") 0 0 no-repeat;
+     width: 6px;
+     height: 3px;
+     display: inline-block;
+ }
+ span.gy{
+     background: url("../images/gouwujiesuan.png") 0 0 no-repeat;
+     width: 20px;
+     height: 20px;
+     display:inline-block;
+     position: relative;
+     top: 6px;
+     left: 0;
+ }
+div.header img{
+    position: absolute;
+    top: 62px;
+    left: 348px;
+}
